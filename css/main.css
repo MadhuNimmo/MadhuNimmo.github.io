@@ -1,22 +1,11 @@
 /* Ubuntu, Ubuntu */
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: black;
-    color: white;
-  }
-}
-@media (prefers-color-scheme: light) {
-  body {
-    background-color: white;
-    color: black;
-  }
-}
+
 body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
-  /*color: #333;*/
+  color: #333;
   line-height: 1.5;
   font-size: 16px;
 }
@@ -108,7 +97,7 @@ h5,
 h6 {
   font-family: Ubuntu, raleway, sans-serif;
   line-height: 1.2;
-  /*color: #330;*/
+  color: #330;
   font-weight: 100;
   margin-bottom: 15px;
   margin-top: 20px;
@@ -403,7 +392,12 @@ ul {
 .publications {
   margin-left: -.5em;
 }
-
+.publication_dest {
+  font-family: "Ubuntu Mono";
+  font-size: 14px;
+  margin: 0em .9em 0em!important;
+  color: #687681!important;
+}
 .code_blog {
     font-family: "Ubuntu Mono";
     font-size: 14px;
